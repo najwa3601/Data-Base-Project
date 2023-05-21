@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DataBaseProject.">
+   <children>
+      <Label fx:id="Please_fill_all_required_fields" layoutX="55.0" layoutY="51.0" prefHeight="45.0" prefWidth="242.0" text="Please fill all required fields">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font></Label>
+      <Label fx:id="Company_ID" layoutX="55.0" layoutY="128.0" prefHeight="26.0" prefWidth="101.0" text="Company_ID" />
+      <Label fx:id="Company_phone" layoutX="52.0" layoutY="177.0" prefHeight="25.0" prefWidth="101.0" text="Company_phone" />
+      <Label fx:id="Company_name" layoutX="52.0" layoutY="226.0" prefHeight="26.0" prefWidth="101.0" text="Company_name" />
+      <Label fx:id="Typesof_product" layoutX="55.0" layoutY="276.0" prefHeight="26.0" prefWidth="101.0" text="Typesof_product" />
+      <TextField fx:id="C_ID" layoutX="187.0" layoutY="124.0" promptText="C_ID" />
+      <TextField fx:id="C_phone" layoutX="187.0" layoutY="177.0" promptText="C_phone" />
+      <TextField fx:id="C_name" layoutX="187.0" layoutY="226.0" promptText="C_name" />
+      <ImageView fitHeight="176.0" fitWidth="231.0" layoutX="395.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photos/setting-up-business.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="291.0" layoutY="404.0" mnemonicParsing="false" onAction="#Done" prefHeight="32.0" prefWidth="74.0" text="Done" />
+      <Button layoutX="150.0" layoutY="404.0" mnemonicParsing="false" onAction="#Back" prefHeight="32.0" prefWidth="74.0" text="Back" />
+      <TextField fx:id="product" layoutX="187.0" layoutY="277.0" promptText="product" />
+   </children>
+</AnchorPane>

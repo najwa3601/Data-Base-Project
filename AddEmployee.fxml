@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: gainsboro; -fx-border-color: #ec2b2b;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DataBase.AddEmployeeController">
+   <children>
+      <Label fx:id="Please_fill_all_required_fields" layoutX="43.0" layoutY="14.0" prefHeight="35.0" prefWidth="291.0" text="Please fill all required fields" textFill="#090b1b">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Address" layoutX="49.0" layoutY="114.0" text="Address" textFill="#050d1b">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="job_title" layoutX="49.0" layoutY="153.0" text="job_title" textFill="#0d0c25">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="Working_hours" layoutX="35.0" layoutY="186.0" text="Working_hours" textFill="#0f0c2c">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="E_ID" layoutX="32.0" layoutY="220.0" prefHeight="35.0" prefWidth="93.0" text="  Employee_ID" textFill="#060614">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="Phone" layoutX="54.0" layoutY="263.0" text="Phone" textFill="#0a0d1b">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="Birth_date" layoutX="43.0" layoutY="302.0" text="Birth_date" textFill="#070a1b">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="marital_status" layoutX="33.0" layoutY="334.0" text="marital_status" textFill="#090b1e">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="E_name" layoutX="50.0" layoutY="66.0" text="E_name" textFill="#030714">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <TextField fx:id="Employee_name" layoutX="176.0" layoutY="76.0" />
+      <TextField fx:id="E_Address" layoutX="176.0" layoutY="111.0" />
+      <TextField fx:id="Job" layoutX="176.0" layoutY="150.0" />
+      <TextField fx:id="w_hours" layoutX="176.0" layoutY="183.0" />
+      <TextField fx:id="Employee_ID" layoutX="176.0" layoutY="225.0" />
+      <TextField fx:id="phone" layoutX="176.0" layoutY="260.0" />
+      <TextField fx:id="Marital_status" layoutX="176.0" layoutY="331.0" />
+      <Button layoutX="207.0" layoutY="552.0" mnemonicParsing="false" onAction="#Done" prefHeight="25.0" prefWidth="64.0" text="Done" />
+      <Button layoutX="334.0" layoutY="552.0" mnemonicParsing="false" onAction="#backk" prefHeight="25.0" prefWidth="66.0" text="Back" />
+      <DatePicker fx:id="birth_date" layoutX="176.0" layoutY="299.0" />
+      <ImageView fitHeight="168.0" fitWidth="174.0" layoutX="466.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photos/play-button-white-color-add-employee-digital-design-logo-icon-free-photo.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="new_Employee" layoutX="504.0" layoutY="255.0" prefHeight="17.0" prefWidth="93.0" text="new_Employee" />
+      <Label fx:id="Month" layoutX="41.0" layoutY="375.0" text="Monthdate" textFill="#091128">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="salary" layoutX="49.0" layoutY="409.0" prefHeight="19.0" prefWidth="47.0" text="Salary" textFill="#120f2c">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sallary" layoutX="176.0" layoutY="406.0" />
+      <DatePicker fx:id="month" layoutX="176.0" layoutY="372.0" />
+      <Label layoutX="40.0" layoutY="451.0" text="Branch_ID">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="branch_Id" layoutX="176.0" layoutY="447.0" />
+      <TextField fx:id="pword" layoutX="176.0" layoutY="483.0" />
+      <Label layoutX="45.0" layoutY="486.0" text="Password">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

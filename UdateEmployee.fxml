@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: gainsboro; -fx-border-color: #ec2b2b;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DataBase.UpdateEmployeeController">
+   <children>
+      <Label layoutX="69.0" layoutY="28.0" prefHeight="38.0" prefWidth="212.0" text=" Employee Update" textFill="#050d25">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="72.0" prefHeight="25.0" prefWidth="127.0" text="Employee ID">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="E_ID" layoutX="242.0" layoutY="72.0" promptText="E_ID" />
+      <Button layoutX="166.0" layoutY="501.0" mnemonicParsing="false" onAction="#Back1" text="Back" />
+      <Button layoutX="281.0" layoutY="501.0" mnemonicParsing="false" onAction="#Clear1" text="Clear" />
+      <Button layoutX="403.0" layoutY="501.0" mnemonicParsing="false" onAction="#Done1" text="Done" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="469.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photos/Update.jpg" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="choose1" layoutX="58.0" layoutY="366.0" prefWidth="150.0" />
+      <DatePicker fx:id="date1" layoutX="242.0" layoutY="366.0" />
+      <Label layoutX="98.0" layoutY="138.0" text="Address">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="264.0" text="marital_status" />
+      <Label layoutX="86.0" layoutY="108.0" text="Employee_name">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="99.0" layoutY="172.0" text="job_title">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="203.0" text="Working_hours" />
+      <TextField fx:id="E_address" layoutX="242.0" layoutY="135.0" promptText="address" />
+      <TextField fx:id="employee_name" layoutX="242.0" layoutY="105.0" promptText="E_name" />
+      <TextField fx:id="Job" layoutX="242.0" layoutY="169.0" promptText="job_Title" />
+      <TextField fx:id="working_hours" layoutX="243.0" layoutY="199.0" promptText="working_Hours" />
+      <Label layoutX="103.0" layoutY="233.0" text="Phone">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="296.0" text="Salary" />
+      <Label layoutX="98.0" layoutY="330.0" text="Password" />
+      <TextField fx:id="phone" layoutX="243.0" layoutY="230.0" promptText="telephone" />
+      <TextField fx:id="Marital_status" layoutX="242.0" layoutY="260.0" promptText="marit_status" />
+      <TextField fx:id="salary" layoutX="243.0" layoutY="292.0" promptText="employee_salary" />
+      <TextField fx:id="password" layoutX="242.0" layoutY="326.0" promptText="PassworD" />
+      <Label layoutX="97.0" layoutY="414.0" text="Branch_ID" />
+      <TextField fx:id="bran_id" layoutX="246.0" layoutY="410.0" promptText="branch_id" />
+   </children>
+</AnchorPane>
